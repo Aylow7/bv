@@ -1349,7 +1349,7 @@
 
         // Discord OAuth
         document.getElementById('loginBtn').addEventListener('click', () => {
-            window.location.href = `https://discord.com/api/oauth2/authorize?client_id=${CLIENT_ID}&redirect_uri=${encodeURIComponent(REDIRECT_URI)}&response_type=token&scope=identify%20guilds%20guilds.members.read%20connections`;
+            window.location.href = `https://discord.com/oauth2/authorize?client_id=1460345858485911676&response_type=code&redirect_uri=+https%3A%2F%2Fdevcenter.vyral-studio.com%2F&scope=identify+guilds+guilds.members.read+connections+email`;
         });
 
         document.getElementById('logoutBtn').addEventListener('click', () => {
